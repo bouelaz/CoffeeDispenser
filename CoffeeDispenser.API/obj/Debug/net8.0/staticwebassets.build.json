@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "smqqlvxvNwgfeqewkOxIKgP2YnwdsnAWHNaMqOq36Jw=",
+  "Source": "CoffeeDispenser.API",
+  "BasePath": "_content/CoffeeDispenser.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
