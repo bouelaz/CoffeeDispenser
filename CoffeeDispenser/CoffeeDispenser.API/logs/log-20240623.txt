@@ -1,0 +1,1337 @@
+2024-06-23 11:37:12.982 +02:00 [INF] Now listening on: https://localhost:7058
+2024-06-23 11:37:13.086 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 11:37:13.097 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 11:37:13.101 +02:00 [INF] Hosting environment: Development
+2024-06-23 11:37:13.107 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 11:37:38.736 +02:00 [INF] Now listening on: https://localhost:7058
+2024-06-23 11:37:38.756 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 11:37:38.758 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 11:37:38.759 +02:00 [INF] Hosting environment: Development
+2024-06-23 11:37:38.760 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 11:37:59.106 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 11:37:59.160 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 11:37:59.163 +02:00 [INF] Hosting environment: Development
+2024-06-23 11:37:59.165 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 11:37:59.640 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger - null null
+2024-06-23 11:38:00.279 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger - 301 0 null 652.7786ms
+2024-06-23 11:38:00.288 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 11:38:00.441 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 153.3083ms
+2024-06-23 11:38:00.448 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-23 11:38:00.450 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 11:38:00.445 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui-bundle.js - null null
+2024-06-23 11:38:00.487 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 38.2617ms
+2024-06-23 11:38:00.461 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui.css - null null
+2024-06-23 11:38:00.459 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 11:38:00.634 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-23 11:38:00.634 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-23 11:38:00.634 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-23 11:38:00.656 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 208.8019ms
+2024-06-23 11:38:00.657 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui.css - 200 143943 text/css 195.792ms
+2024-06-23 11:38:00.664 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 219.5338ms
+2024-06-23 11:38:00.747 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 288.05ms
+2024-06-23 11:38:00.920 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 11:38:00.946 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/favicon-32x32.png - null null
+2024-06-23 11:38:00.955 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-23 11:38:00.959 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/favicon-32x32.png - 200 628 image/png 12.1671ms
+2024-06-23 11:38:01.134 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.5058ms
+2024-06-23 11:38:09.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 11:38:09.047 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 11:38:09.052 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 11:38:09.083 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 11:38:10.112 +02:00 [INF] Fetching all drinks
+2024-06-23 11:38:10.290 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 11:38:10.299 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 1209.5686ms
+2024-06-23 11:38:10.300 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 11:38:10.305 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 1270.6831ms
+2024-06-23 11:47:37.604 +02:00 [INF] Seeding database...
+2024-06-23 11:47:37.678 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 11:47:37.683 +02:00 [INF] Database seeding completed.
+2024-06-23 11:47:37.878 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 11:47:37.879 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 11:47:37.880 +02:00 [INF] Hosting environment: Development
+2024-06-23 11:47:37.881 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 11:47:38.460 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 11:47:38.654 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 201.8557ms
+2024-06-23 11:47:38.656 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 11:47:38.659 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 11:47:38.672 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.6343ms
+2024-06-23 11:47:38.693 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.5303ms
+2024-06-23 11:47:38.809 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 11:47:38.871 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.745ms
+2024-06-23 11:47:45.075 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 11:47:45.094 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 11:47:45.102 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 11:47:45.143 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 11:47:45.178 +02:00 [INF] Fetching all drinks
+2024-06-23 11:47:45.263 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 11:47:45.291 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 136.1241ms
+2024-06-23 11:47:45.293 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 11:47:45.297 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 221.5604ms
+2024-06-23 12:15:26.415 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:15:26.444 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:15:26.457 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:15:26.458 +02:00 [INF] Drinks initialized.
+2024-06-23 12:15:26.531 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:15:26.533 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:15:26.713 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:15:26.714 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:15:26.715 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:15:26.716 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:15:27.083 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:15:27.294 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:15:27.295 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 220.3692ms
+2024-06-23 12:15:27.296 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:15:27.305 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 28.6484ms
+2024-06-23 12:15:27.338 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.7761ms
+2024-06-23 12:15:27.377 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:15:27.446 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.5383ms
+2024-06-23 12:15:30.704 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 12:15:30.720 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 12:15:30.728 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:15:30.768 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:15:30.791 +02:00 [INF] Fetching all drinks
+2024-06-23 12:15:30.816 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:15:30.835 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 58.6099ms
+2024-06-23 12:15:30.837 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:15:30.841 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 137.1629ms
+2024-06-23 12:15:45.626 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/1 - null null
+2024-06-23 12:15:45.633 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API)'
+2024-06-23 12:15:45.646 +02:00 [INF] Route matched with {action = "GetDrink", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Models.Drink]] GetDrink(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:15:45.775 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Models.Drink'.
+2024-06-23 12:15:45.786 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API) in 134.8368ms
+2024-06-23 12:15:45.788 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API)'
+2024-06-23 12:15:45.790 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 12:15:45.849 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/1 - 500 null text/plain; charset=utf-8 223.0232ms
+2024-06-23 12:15:54.624 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/1 - null null
+2024-06-23 12:15:54.632 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API)'
+2024-06-23 12:15:54.634 +02:00 [INF] Route matched with {action = "GetDrink", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Models.Drink]] GetDrink(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:16:45.911 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:16:45.944 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:16:45.957 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:16:45.958 +02:00 [INF] Drinks initialized.
+2024-06-23 12:16:46.024 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:16:46.025 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:16:46.211 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:16:46.212 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:16:46.213 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:16:46.213 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:16:46.869 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:16:47.022 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 158.8989ms
+2024-06-23 12:16:47.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:16:47.031 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:16:47.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 15.0012ms
+2024-06-23 12:16:47.076 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.261ms
+2024-06-23 12:16:47.127 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:16:47.205 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.9706ms
+2024-06-23 12:16:52.013 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/1 - null null
+2024-06-23 12:16:52.032 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 12:16:52.041 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API)'
+2024-06-23 12:16:52.085 +02:00 [INF] Route matched with {action = "GetDrink", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Models.Drink]] GetDrink(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:16:53.542 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Models.Drink'.
+2024-06-23 12:16:53.571 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API) in 1478.047ms
+2024-06-23 12:16:53.575 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrink (CoffeeDispenser.API)'
+2024-06-23 12:16:53.578 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.Drink.DrinkIngredients.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 12:16:53.640 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/1 - 500 null text/plain; charset=utf-8 1627.4456ms
+2024-06-23 12:35:36.015 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:35:36.045 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:35:36.059 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:35:36.061 +02:00 [INF] Drinks initialized.
+2024-06-23 12:35:36.132 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:35:36.134 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:35:36.321 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:35:36.322 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:35:36.323 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:35:36.324 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:35:36.722 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:35:36.926 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 212.2169ms
+2024-06-23 12:35:36.934 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:35:36.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:35:36.947 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.5105ms
+2024-06-23 12:35:36.973 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7232ms
+2024-06-23 12:35:37.028 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:35:37.098 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.9842ms
+2024-06-23 12:35:41.360 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 12:35:41.375 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 12:35:41.380 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:35:41.430 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:35:41.474 +02:00 [INF] Fetching all drinks
+2024-06-23 12:35:41.527 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:35:41.574 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 130.6359ms
+2024-06-23 12:35:41.578 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:35:41.584 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 224.2337ms
+2024-06-23 12:35:58.032 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/4 - null null
+2024-06-23 12:35:58.038 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:35:58.056 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:35:58.234 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:35:58.259 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 197.0893ms
+2024-06-23 12:35:58.261 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:35:58.264 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/4 - 200 null application/json; charset=utf-8 232.1339ms
+2024-06-23 12:40:05.044 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 12:40:05.058 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:40:05.061 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:40:05.075 +02:00 [INF] Fetching all drinks
+2024-06-23 12:40:05.080 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:40:05.085 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 19.2036ms
+2024-06-23 12:40:05.089 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 12:40:05.093 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 50.2788ms
+2024-06-23 12:40:11.095 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/4 - null null
+2024-06-23 12:40:11.102 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:40:11.105 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:40:11.115 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:40:11.119 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 9.0307ms
+2024-06-23 12:40:11.123 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:40:11.125 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/4 - 200 null application/json; charset=utf-8 29.9843ms
+2024-06-23 12:43:17.996 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:43:18.023 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:43:18.034 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:43:18.035 +02:00 [INF] Drinks initialized.
+2024-06-23 12:43:18.097 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:43:18.099 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:43:18.279 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:43:18.281 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:43:18.282 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:43:18.284 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:43:18.873 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:43:19.078 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 212.2938ms
+2024-06-23 12:43:19.092 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:43:19.098 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:43:19.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 16.5462ms
+2024-06-23 12:43:19.137 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.0749ms
+2024-06-23 12:43:19.182 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:43:19.244 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.5913ms
+2024-06-23 12:43:26.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - null null
+2024-06-23 12:43:26.951 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 12:43:26.957 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:43:26.986 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:43:27.155 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:43:27.205 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 208.9918ms
+2024-06-23 12:43:27.208 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:43:27.212 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - 200 null application/json; charset=utf-8 276.721ms
+2024-06-23 12:56:49.438 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:56:49.467 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:56:49.481 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:56:49.483 +02:00 [INF] Drinks initialized.
+2024-06-23 12:56:49.554 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:56:49.556 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:56:49.754 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:56:49.755 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:56:49.756 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:56:49.758 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:56:50.412 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:56:50.617 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 209.1763ms
+2024-06-23 12:56:50.629 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:56:50.630 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:56:50.640 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 28.4639ms
+2024-06-23 12:56:50.662 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.7746ms
+2024-06-23 12:56:50.709 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:56:50.775 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.669ms
+2024-06-23 12:56:59.771 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - null null
+2024-06-23 12:56:59.783 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 12:56:59.788 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:56:59.813 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 12:56:59.942 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 12:56:59.987 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 166.5724ms
+2024-06-23 12:56:59.990 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 12:56:59.992 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - 200 null application/json; charset=utf-8 221.5136ms
+2024-06-23 12:58:21.546 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 12:58:21.575 +02:00 [INF] Ingredients initialized.
+2024-06-23 12:58:21.586 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 12:58:21.587 +02:00 [INF] Drinks initialized.
+2024-06-23 12:58:21.650 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 12:58:21.652 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 12:58:21.810 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 12:58:21.811 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 12:58:21.813 +02:00 [INF] Hosting environment: Development
+2024-06-23 12:58:21.814 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 12:58:22.503 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 12:58:22.657 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 157.0063ms
+2024-06-23 12:58:22.660 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 12:58:22.662 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 12:58:22.673 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.0183ms
+2024-06-23 12:58:22.690 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.95ms
+2024-06-23 12:58:22.722 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 12:58:22.783 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.9882ms
+2024-06-23 13:03:33.974 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 13:03:34.006 +02:00 [INF] Ingredients initialized.
+2024-06-23 13:03:34.018 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 13:03:34.019 +02:00 [INF] Drinks initialized.
+2024-06-23 13:03:34.077 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 13:03:34.079 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 13:03:34.245 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 13:03:34.246 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 13:03:34.247 +02:00 [INF] Hosting environment: Development
+2024-06-23 13:03:34.248 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 13:03:34.929 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 13:03:35.088 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 163.0023ms
+2024-06-23 13:03:35.091 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 13:03:35.096 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 13:03:35.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.3421ms
+2024-06-23 13:03:35.129 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.8949ms
+2024-06-23 13:03:35.155 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 13:03:35.214 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.0238ms
+2024-06-23 13:03:38.929 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 13:03:38.955 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 13:03:38.968 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:03:39.013 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:03:39.061 +02:00 [INF] Fetching all drinks
+2024-06-23 13:03:39.219 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 13:03:39.328 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 299.0548ms
+2024-06-23 13:03:39.332 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:03:39.336 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 407.7542ms
+2024-06-23 13:04:02.342 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 13:04:02.368 +02:00 [INF] Ingredients initialized.
+2024-06-23 13:04:02.384 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 13:04:02.386 +02:00 [INF] Drinks initialized.
+2024-06-23 13:04:02.455 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 13:04:02.456 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 13:04:02.670 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 13:04:02.672 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 13:04:02.673 +02:00 [INF] Hosting environment: Development
+2024-06-23 13:04:02.674 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 13:04:03.015 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 13:04:03.178 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 169.5677ms
+2024-06-23 13:04:03.182 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 13:04:03.183 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 13:04:03.193 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.067ms
+2024-06-23 13:04:03.217 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.3706ms
+2024-06-23 13:04:03.246 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 13:04:03.305 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.091ms
+2024-06-23 13:04:08.731 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 13:04:08.758 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 13:04:08.768 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:04:08.817 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:04:08.850 +02:00 [INF] Fetching all drinks
+2024-06-23 13:04:08.882 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 13:04:08.931 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 99.9473ms
+2024-06-23 13:04:08.937 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:04:08.943 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 212.025ms
+2024-06-23 13:04:30.435 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/8 - null null
+2024-06-23 13:04:30.454 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:04:30.476 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:04:30.680 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 199.0227ms
+2024-06-23 13:04:30.683 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:04:30.686 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink not found.
+   at CoffeeDispenser.API.Services.DrinkService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 36
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 28
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Controllers\DrinksController.cs:line 30
+   at lambda_method198(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:04:30.729 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/8 - 500 null text/plain; charset=utf-8 295.0863ms
+2024-06-23 13:04:43.862 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/7 - null null
+2024-06-23 13:04:43.871 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:04:43.875 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:04:43.944 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Dtos.DrinkDto'.
+2024-06-23 13:04:43.956 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 74.0117ms
+2024-06-23 13:04:43.962 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:04:43.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/7 - 200 null application/json; charset=utf-8 103.8014ms
+2024-06-23 13:05:20.139 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/99 - null null
+2024-06-23 13:05:20.144 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:05:20.145 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:05:35.176 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 15029.3343ms
+2024-06-23 13:05:35.180 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:05:35.184 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink not found.
+   at CoffeeDispenser.API.Services.DrinkService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 36
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 28
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Controllers\DrinksController.cs:line 30
+   at lambda_method198(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:05:35.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/99 - 500 null text/plain; charset=utf-8 15049.7346ms
+2024-06-23 13:31:40.944 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/99 - null null
+2024-06-23 13:31:40.950 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:31:40.952 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:32:00.306 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 19350.5201ms
+2024-06-23 13:32:00.310 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:32:00.314 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink not found.
+   at CoffeeDispenser.API.Services.DrinkService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 36
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 28
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Controllers\DrinksController.cs:line 30
+   at lambda_method198(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:32:00.321 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/99 - 500 null text/plain; charset=utf-8 19377.4619ms
+2024-06-23 13:40:54.453 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 13:40:54.491 +02:00 [INF] Ingredients initialized.
+2024-06-23 13:40:54.504 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 13:40:54.506 +02:00 [INF] Drinks initialized.
+2024-06-23 13:40:54.579 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 13:40:54.581 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 13:40:54.761 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 13:40:54.762 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 13:40:54.763 +02:00 [INF] Hosting environment: Development
+2024-06-23 13:40:54.764 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser.API
+2024-06-23 13:40:55.173 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 13:40:55.328 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 157.4735ms
+2024-06-23 13:40:55.329 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 13:40:55.334 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 13:40:55.345 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.476ms
+2024-06-23 13:40:55.367 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0397ms
+2024-06-23 13:40:55.398 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 13:40:55.477 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.1659ms
+2024-06-23 13:41:57.815 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/55 - null null
+2024-06-23 13:41:57.841 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 13:41:57.850 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:41:57.891 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:42:02.647 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 4744.6485ms
+2024-06-23 13:42:02.650 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:42:02.653 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink not found.
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Services\DrinkService.cs:line 34
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id) in C:\Users\moezm\Workspace\CoffeeDispenser.API\Controllers\DrinksController.cs:line 30
+   at lambda_method187(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:42:02.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/55 - 500 null text/plain; charset=utf-8 4909.6481ms
+2024-06-23 13:42:42.413 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/55 - null null
+2024-06-23 13:42:42.420 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:42:42.423 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:42:44.495 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 2069.5655ms
+2024-06-23 13:42:44.501 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:42:44.503 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Drink with 55 is not found.
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId)
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id)
+   at lambda_method187(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:42:44.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/55 - 500 null text/plain; charset=utf-8 2097.5514ms
+2024-06-23 13:42:45.513 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 13:42:45.527 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 14.1984ms
+2024-06-23 13:42:45.535 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 13:42:45.538 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 3.3785ms
+2024-06-23 13:42:45.690 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 13:42:45.721 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.852ms
+2024-06-23 13:42:45.745 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 13:42:45.754 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.8712ms
+2024-06-23 13:42:52.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/222 - null null
+2024-06-23 13:42:52.866 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:42:52.872 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:42:56.498 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 3622.9213ms
+2024-06-23 13:42:56.500 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:42:56.501 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Drink with 222 is not found.
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkWithPrice(Int32 drinkId)
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice(Int32 id)
+   at lambda_method209(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 13:42:56.507 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/222 - 500 null text/plain; charset=utf-8 3646.6081ms
+2024-06-23 13:43:06.945 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - null null
+2024-06-23 13:43:06.952 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:43:06.955 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:43:12.790 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Dtos.DrinkDto'.
+2024-06-23 13:43:12.804 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 5845.8571ms
+2024-06-23 13:43:12.805 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 13:43:12.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - 200 null application/json; charset=utf-8 5862.3817ms
+2024-06-23 13:44:21.666 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 13:44:21.670 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:44:21.675 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:44:21.681 +02:00 [INF] Fetching all drinks
+2024-06-23 13:44:21.693 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 13:44:21.698 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 20.3623ms
+2024-06-23 13:44:21.701 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:44:21.704 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 38.0007ms
+2024-06-23 13:44:22.414 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 13:44:22.418 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:44:22.420 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 13:44:22.423 +02:00 [INF] Fetching all drinks
+2024-06-23 13:44:22.426 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 13:44:22.428 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 5.0183ms
+2024-06-23 13:44:22.429 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 13:44:22.431 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 16.9901ms
+2024-06-23 14:30:18.231 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 14:30:18.265 +02:00 [INF] Ingredients initialized.
+2024-06-23 14:30:18.279 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 14:30:18.279 +02:00 [INF] Drinks initialized.
+2024-06-23 14:30:18.340 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 14:30:18.341 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 14:30:18.499 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 14:30:18.500 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 14:30:18.500 +02:00 [INF] Hosting environment: Development
+2024-06-23 14:30:18.501 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 14:30:19.074 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 14:30:19.256 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 184.994ms
+2024-06-23 14:30:19.259 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 14:30:19.260 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 14:30:19.269 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.1544ms
+2024-06-23 14:30:19.301 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3343ms
+2024-06-23 14:30:19.334 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 14:30:19.403 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.5487ms
+2024-06-23 14:31:37.890 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 14:31:37.904 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 14:31:37.910 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 14:31:37.934 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 14:31:37.958 +02:00 [INF] Fetching all drinks
+2024-06-23 14:31:37.980 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Models.Drink, CoffeeDispenser.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 14:31:38.001 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 59.829ms
+2024-06-23 14:31:38.003 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 14:31:38.005 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 115.1999ms
+2024-06-23 14:31:50.151 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - null null
+2024-06-23 14:31:50.154 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 14:31:50.165 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 14:31:50.264 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2024-06-23 14:31:50.267 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 99.833ms
+2024-06-23 14:31:50.268 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 14:31:50.268 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - 200 null application/json; charset=utf-8 117.9391ms
+2024-06-23 14:31:59.473 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - null null
+2024-06-23 14:31:59.477 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 14:31:59.483 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 14:31:59.497 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Dtos.DrinkDto'.
+2024-06-23 14:31:59.505 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 19.956ms
+2024-06-23 14:31:59.509 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 14:31:59.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/2 - 200 null application/json; charset=utf-8 38.6534ms
+2024-06-23 15:41:52.452 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 15:41:52.481 +02:00 [INF] Ingredients initialized.
+2024-06-23 15:41:52.492 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 15:41:52.493 +02:00 [INF] Drinks initialized.
+2024-06-23 15:41:52.557 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 15:41:52.558 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 15:41:52.725 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 15:41:52.726 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 15:41:52.726 +02:00 [INF] Hosting environment: Development
+2024-06-23 15:41:52.727 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 15:41:53.664 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 15:41:53.892 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 234.9044ms
+2024-06-23 15:41:53.897 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 15:41:53.898 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 15:41:53.906 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 7.8186ms
+2024-06-23 15:41:53.936 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.393ms
+2024-06-23 15:41:53.963 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 15:41:54.026 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.2562ms
+2024-06-23 15:41:58.991 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - null null
+2024-06-23 15:41:59.009 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 15:41:59.015 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 15:41:59.051 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 15:41:59.205 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2024-06-23 15:41:59.230 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 169.6474ms
+2024-06-23 15:41:59.233 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 15:41:59.238 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - 200 null application/json; charset=utf-8 246.4329ms
+2024-06-23 15:42:04.234 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/details/55 - null null
+2024-06-23 15:42:04.241 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 15:42:04.245 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 15:42:04.509 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 257.9788ms
+2024-06-23 15:42:04.513 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 15:42:04.519 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink with id 55 not found.
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkByIdAsync(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 61
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinPriceById(Int32 drinkId) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 28
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice(Int32 id) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Controllers\DrinksController.cs:line 30
+   at lambda_method178(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 15:42:04.603 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/details/55 - 500 null text/plain; charset=utf-8 368.7103ms
+2024-06-23 18:58:49.388 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 18:58:49.418 +02:00 [INF] Ingredients initialized.
+2024-06-23 18:58:49.428 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 18:58:49.429 +02:00 [INF] Drinks initialized.
+2024-06-23 18:58:49.486 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 18:58:49.487 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 18:58:49.641 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 18:58:49.642 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 18:58:49.644 +02:00 [INF] Hosting environment: Development
+2024-06-23 18:58:49.645 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 18:58:50.689 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 18:58:50.855 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 171.7759ms
+2024-06-23 18:58:50.858 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 18:58:50.860 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 18:58:50.870 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 9.4443ms
+2024-06-23 18:58:50.889 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.3641ms
+2024-06-23 18:58:50.937 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 18:58:51.011 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.9687ms
+2024-06-23 18:59:16.584 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/price/1 - null null
+2024-06-23 18:59:16.606 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 18:59:16.612 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 18:59:16.656 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 18:59:16.920 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2024-06-23 18:59:16.950 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 283.0314ms
+2024-06-23 18:59:16.954 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 18:59:16.960 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/price/1 - 200 null application/json; charset=utf-8 380.5775ms
+2024-06-23 18:59:21.867 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 18:59:21.875 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 18:59:21.886 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 18:59:21.967 +02:00 [INF] Fetching all drinks
+2024-06-23 18:59:22.070 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 180.4636ms
+2024-06-23 18:59:22.074 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 18:59:22.076 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Sum[TSource,TResult,TAccumulator](IEnumerable`1 source, Func`2 selector)
+   at CoffeeDispenser.API.Services.CalculationPriceStrategyService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\CalculationPriceStrategyService.cs:line 13
+   at CoffeeDispenser.API.Services.DrinkService.<GetAllDrinksAsync>b__6_0(Drink d) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 53
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at CoffeeDispenser.API.Services.DrinkService.GetAllDrinksAsync() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 50
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinks() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Controllers\DrinksController.cs:line 23
+   at lambda_method202(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 18:59:22.135 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 500 null text/plain; charset=utf-8 268.676ms
+2024-06-23 19:24:53.464 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:24:53.494 +02:00 [INF] Ingredients initialized.
+2024-06-23 19:24:53.504 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:24:53.506 +02:00 [INF] Drinks initialized.
+2024-06-23 19:24:53.568 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:24:53.570 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 19:24:53.722 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:24:53.723 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:24:53.724 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:24:53.725 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:24:54.103 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:24:54.270 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 172.9778ms
+2024-06-23 19:24:54.273 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:24:54.276 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:24:54.285 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.7497ms
+2024-06-23 19:24:54.310 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.1814ms
+2024-06-23 19:24:54.336 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:24:54.399 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.5032ms
+2024-06-23 19:24:59.312 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - null null
+2024-06-23 19:24:59.345 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:24:59.356 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 19:24:59.420 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:24:59.632 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Dtos.DrinkDto'.
+2024-06-23 19:24:59.654 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 224.9105ms
+2024-06-23 19:24:59.656 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 19:24:59.659 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - 200 null application/json; charset=utf-8 347.6573ms
+2024-06-23 19:25:04.969 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:25:04.976 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:25:04.988 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:25:05.074 +02:00 [INF] Fetching all drinks
+2024-06-23 19:25:05.231 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 237.7293ms
+2024-06-23 19:25:05.235 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:25:05.239 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Sum[TSource,TResult,TAccumulator](IEnumerable`1 source, Func`2 selector)
+   at CoffeeDispenser.API.Services.CalculationPriceStrategyService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\CalculationPriceStrategyService.cs:line 13
+   at CoffeeDispenser.API.Services.DrinkService.<GetAllDrinksAsync>b__6_0(Drink d) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 53
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at CoffeeDispenser.API.Services.DrinkService.GetAllDrinksAsync() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 50
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinks() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Controllers\DrinksController.cs:line 23
+   at lambda_method202(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 19:25:05.325 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 500 null text/plain; charset=utf-8 355.8435ms
+2024-06-23 19:25:24.648 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:25:24.655 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:25:24.658 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:25:24.663 +02:00 [INF] Fetching all drinks
+2024-06-23 19:25:33.889 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 9228.9861ms
+2024-06-23 19:25:33.891 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:25:33.894 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Sum[TSource,TResult,TAccumulator](IEnumerable`1 source, Func`2 selector)
+   at CoffeeDispenser.API.Services.CalculationPriceStrategyService.CalculateFinalPrice(Drink drink) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\CalculationPriceStrategyService.cs:line 13
+   at CoffeeDispenser.API.Services.DrinkService.<GetAllDrinksAsync>b__6_0(Drink d) in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 53
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at CoffeeDispenser.API.Services.DrinkService.GetAllDrinksAsync() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Services\DrinkService.cs:line 50
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinks() in C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API\Controllers\DrinksController.cs:line 23
+   at lambda_method202(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 19:25:33.900 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 500 null text/plain; charset=utf-8 9251.6346ms
+2024-06-23 19:25:36.184 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:25:36.189 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:25:36.191 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:25:39.158 +02:00 [INF] Fetching all drinks
+2024-06-23 19:27:02.255 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:27:02.286 +02:00 [INF] Ingredients initialized.
+2024-06-23 19:27:02.296 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:27:02.298 +02:00 [INF] Drinks initialized.
+2024-06-23 19:27:02.361 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:27:02.362 +02:00 [INF] DrinkIngredients initialized.
+2024-06-23 19:27:02.529 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:27:02.530 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:27:02.531 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:27:02.532 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:27:02.714 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:27:02.867 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 158.1879ms
+2024-06-23 19:27:02.870 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:27:02.873 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:27:02.883 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 10.2753ms
+2024-06-23 19:27:02.902 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.5752ms
+2024-06-23 19:27:02.929 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:27:03.000 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.5995ms
+2024-06-23 19:27:07.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:27:07.886 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:27:07.892 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:27:07.923 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:27:07.955 +02:00 [INF] Fetching all drinks
+2024-06-23 19:27:15.350 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 19:27:15.454 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 7511.2869ms
+2024-06-23 19:27:15.477 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:27:15.486 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 7614.1282ms
+2024-06-23 19:28:44.177 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - null null
+2024-06-23 19:28:44.199 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 19:28:44.231 +02:00 [INF] Route matched with {action = "GetDrinkPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CoffeeDispenser.API.Dtos.DrinkDto]] GetDrinkPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:28:44.379 +02:00 [INF] Executing OkObjectResult, writing value of type 'CoffeeDispenser.API.Dtos.DrinkDto'.
+2024-06-23 19:28:44.383 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API) in 145.3821ms
+2024-06-23 19:28:44.385 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinkPrice (CoffeeDispenser.API)'
+2024-06-23 19:28:44.387 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/details/2 - 200 null application/json; charset=utf-8 218.6932ms
+2024-06-23 19:39:13.480 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 19:39:13.576 +02:00 [INF] Seeding database...
+2024-06-23 19:39:13.625 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:39:13.636 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:39:13.653 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:39:13.655 +02:00 [INF] Database seeding complete.
+2024-06-23 19:39:13.812 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:39:13.813 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:39:13.814 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:39:13.815 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:39:14.636 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:39:14.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 152.2827ms
+2024-06-23 19:39:14.786 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:39:14.788 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:39:14.796 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.9982ms
+2024-06-23 19:39:14.821 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.8955ms
+2024-06-23 19:39:14.847 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:39:14.913 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.2603ms
+2024-06-23 19:39:19.906 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:39:19.927 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:39:19.935 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:39:19.984 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:39:20.034 +02:00 [INF] Fetching all drinks
+2024-06-23 19:39:20.292 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 19:39:20.336 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 337.7572ms
+2024-06-23 19:39:20.340 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:39:20.346 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 440.6921ms
+2024-06-23 19:49:26.012 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 19:49:26.104 +02:00 [INF] Seeding database...
+2024-06-23 19:49:26.151 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:49:26.162 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:49:26.178 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:49:26.180 +02:00 [INF] Database seeding complete.
+2024-06-23 19:49:26.352 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:49:26.354 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:49:26.355 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:49:26.356 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:49:26.989 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:49:27.087 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:49:27.096 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 404 0 null 112.0773ms
+2024-06-23 19:49:27.102 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5091/swagger/index.html, Response status code: 404
+2024-06-23 19:49:50.881 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:49:50.924 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 404 0 null 43.6135ms
+2024-06-23 19:49:50.930 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5091/swagger/index.html, Response status code: 404
+2024-06-23 19:50:07.927 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 19:50:08.033 +02:00 [INF] Seeding database...
+2024-06-23 19:50:08.082 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:50:08.093 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:50:08.116 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:50:08.117 +02:00 [INF] Database seeding complete.
+2024-06-23 19:50:08.282 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:50:08.284 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:50:08.284 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:50:08.286 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:50:08.561 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:50:08.711 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:50:08.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 157.6714ms
+2024-06-23 19:50:08.728 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 16.4033ms
+2024-06-23 19:50:08.729 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:50:08.761 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.3697ms
+2024-06-23 19:50:08.789 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:50:08.848 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.073ms
+2024-06-23 19:50:23.150 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 19:50:23.171 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:50:23.179 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:50:23.218 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:50:23.264 +02:00 [INF] Fetching all drinks
+2024-06-23 19:50:23.507 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 19:50:23.551 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 321.8412ms
+2024-06-23 19:50:23.555 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 19:50:23.559 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 409.0051ms
+2024-06-23 19:53:12.916 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 19:53:13.011 +02:00 [INF] Seeding database...
+2024-06-23 19:53:13.068 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:53:13.079 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:53:13.094 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:53:13.096 +02:00 [INF] Database seeding complete.
+2024-06-23 19:53:13.259 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:53:13.261 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:53:13.262 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:53:13.263 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:53:14.018 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:53:14.167 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 154.0243ms
+2024-06-23 19:53:14.169 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:53:14.173 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:53:14.179 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.8104ms
+2024-06-23 19:53:14.204 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4507ms
+2024-06-23 19:53:14.235 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:53:14.301 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.8246ms
+2024-06-23 19:54:50.963 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 19:54:51.071 +02:00 [INF] Seeding database...
+2024-06-23 19:54:51.122 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 19:54:51.133 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 19:54:51.150 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 19:54:51.152 +02:00 [INF] Database seeding complete.
+2024-06-23 19:54:51.304 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 19:54:51.306 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 19:54:51.307 +02:00 [INF] Hosting environment: Development
+2024-06-23 19:54:51.308 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 19:54:52.071 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:54:52.252 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 187.0498ms
+2024-06-23 19:54:52.254 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:54:52.257 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:54:52.265 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.9261ms
+2024-06-23 19:54:52.298 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.5846ms
+2024-06-23 19:54:52.327 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:54:52.401 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.4564ms
+2024-06-23 19:55:02.236 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/2 - null null
+2024-06-23 19:55:02.254 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 19:55:02.262 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:55:02.295 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:55:02.551 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2024-06-23 19:55:02.567 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 264.0182ms
+2024-06-23 19:55:02.570 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:55:02.575 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/2 - 200 null application/json; charset=utf-8 338.9137ms
+2024-06-23 19:56:08.938 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 19:56:08.960 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 22.3182ms
+2024-06-23 19:56:08.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 19:56:08.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 19:56:08.970 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 2.6894ms
+2024-06-23 19:56:08.982 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.8344ms
+2024-06-23 19:56:09.026 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 19:56:09.035 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7166ms
+2024-06-23 19:56:13.829 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/2 - null null
+2024-06-23 19:56:13.835 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:56:13.843 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:56:13.876 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Decimal'.
+2024-06-23 19:56:13.882 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 36.1608ms
+2024-06-23 19:56:13.885 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:56:13.886 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/2 - 200 null application/json; charset=utf-8 57.0693ms
+2024-06-23 19:56:20.448 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/55 - null null
+2024-06-23 19:56:20.452 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:56:20.453 +02:00 [INF] Route matched with {action = "GetDrinPrice", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinPrice(Int32) on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 19:56:20.557 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API) in 102.0655ms
+2024-06-23 19:56:20.559 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice (CoffeeDispenser.API)'
+2024-06-23 19:56:20.560 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ApplicationException: Drink with id 55 not found.
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinkByIdAsync(Int32 drinkId)
+   at CoffeeDispenser.API.Services.DrinkService.GetDrinPriceById(Int32 drinkId)
+   at CoffeeDispenser.API.Controllers.DrinksController.GetDrinPrice(Int32 id)
+   at lambda_method164(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-23 19:56:20.585 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks/prix/55 - 500 null text/plain; charset=utf-8 137.2767ms
+2024-06-23 20:11:24.147 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:11:24.260 +02:00 [INF] Seeding database...
+2024-06-23 20:11:24.313 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:11:24.323 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:11:24.339 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:11:24.340 +02:00 [INF] Database seeding complete.
+2024-06-23 20:11:24.504 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:11:24.506 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:11:24.507 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:11:24.509 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:11:24.828 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:11:25.035 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 211.896ms
+2024-06-23 20:11:25.038 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:11:25.041 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:11:25.048 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.4047ms
+2024-06-23 20:11:25.088 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.5449ms
+2024-06-23 20:11:25.115 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:11:25.180 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.736ms
+2024-06-23 20:11:28.958 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 20:11:28.969 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 20:11:28.973 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:11:28.990 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 20:11:29.012 +02:00 [INF] Fetching all drinks
+2024-06-23 20:11:29.138 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 20:11:29.161 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 164.6596ms
+2024-06-23 20:11:29.163 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:11:29.166 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 208.6641ms
+2024-06-23 20:12:26.775 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:12:26.873 +02:00 [INF] Seeding database...
+2024-06-23 20:12:26.922 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:12:26.932 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:12:26.948 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:12:26.949 +02:00 [INF] Database seeding complete.
+2024-06-23 20:12:27.114 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:12:27.116 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:12:27.117 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:12:27.117 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:12:27.517 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:12:27.680 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:12:27.680 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 167.3036ms
+2024-06-23 20:12:27.685 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 5.1999ms
+2024-06-23 20:12:27.686 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:12:27.717 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.6683ms
+2024-06-23 20:12:27.760 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:12:27.833 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.0394ms
+2024-06-23 20:13:17.230 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:13:17.326 +02:00 [INF] Seeding database...
+2024-06-23 20:13:17.375 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:13:17.388 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:13:17.409 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:13:17.412 +02:00 [INF] Database seeding complete.
+2024-06-23 20:13:17.579 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:13:17.581 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:13:17.582 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:13:17.583 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:13:17.948 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:13:18.130 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 187.6792ms
+2024-06-23 20:13:18.133 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:13:18.136 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:13:18.144 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.1573ms
+2024-06-23 20:13:18.178 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.4301ms
+2024-06-23 20:13:18.206 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:13:18.275 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.0449ms
+2024-06-23 20:14:01.151 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:14:01.264 +02:00 [INF] Seeding database...
+2024-06-23 20:14:01.320 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:14:01.330 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:14:01.348 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:14:01.349 +02:00 [INF] Database seeding complete.
+2024-06-23 20:14:01.528 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:14:01.529 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:14:01.531 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:14:01.532 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:14:01.841 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:14:02.055 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 217.2035ms
+2024-06-23 20:14:02.058 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:14:02.060 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:14:02.069 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 8.7396ms
+2024-06-23 20:14:02.087 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7244ms
+2024-06-23 20:14:02.124 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:14:02.198 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.8215ms
+2024-06-23 20:14:09.242 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 20:14:09.258 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 20:14:09.264 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:14:09.305 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 20:14:09.359 +02:00 [INF] Fetching all drinks
+2024-06-23 20:14:09.560 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 20:14:09.588 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 274.0122ms
+2024-06-23 20:14:09.592 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:14:09.597 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 355.1556ms
+2024-06-23 20:17:37.873 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:17:37.968 +02:00 [INF] Seeding database...
+2024-06-23 20:17:38.020 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:17:38.030 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:17:38.047 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:17:38.048 +02:00 [INF] Database seeding complete.
+2024-06-23 20:17:38.208 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:17:38.209 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:17:38.210 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:17:38.211 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:17:38.758 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:17:38.938 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 183.6208ms
+2024-06-23 20:17:38.943 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:17:38.944 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:17:38.950 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.0342ms
+2024-06-23 20:17:38.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.7741ms
+2024-06-23 20:17:39.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:17:39.103 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.8523ms
+2024-06-23 20:24:06.020 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:24:06.122 +02:00 [INF] Seeding database...
+2024-06-23 20:24:06.173 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:24:06.183 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:24:06.203 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:24:06.204 +02:00 [INF] Database seeding complete.
+2024-06-23 20:24:06.371 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:24:06.372 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:24:06.373 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:24:06.375 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:24:06.829 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:24:07.007 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 182.5648ms
+2024-06-23 20:24:07.010 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:24:07.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:24:07.026 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 12.1553ms
+2024-06-23 20:24:07.063 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.398ms
+2024-06-23 20:24:07.092 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:24:07.159 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.501ms
+2024-06-23 20:24:09.904 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/api/Drinks - null null
+2024-06-23 20:24:09.916 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-06-23 20:24:09.920 +02:00 [INF] Executing endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:24:09.945 +02:00 [INF] Route matched with {action = "GetDrinks", controller = "Drinks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoffeeDispenser.API.Models.Drink]]] GetDrinks() on controller CoffeeDispenser.API.Controllers.DrinksController (CoffeeDispenser.API).
+2024-06-23 20:24:09.979 +02:00 [INF] Fetching all drinks
+2024-06-23 20:24:10.129 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoffeeDispenser.API.Dtos.DrinkDto, CoffeeDispenser.API, Version=1.0.1.1, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-23 20:24:10.156 +02:00 [INF] Executed action CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API) in 203.4093ms
+2024-06-23 20:24:10.158 +02:00 [INF] Executed endpoint 'CoffeeDispenser.API.Controllers.DrinksController.GetDrinks (CoffeeDispenser.API)'
+2024-06-23 20:24:10.162 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/api/Drinks - 200 null application/json; charset=utf-8 258.4463ms
+2024-06-23 20:24:39.331 +02:00 [INF] Saved 0 entities to in-memory store.
+2024-06-23 20:24:39.461 +02:00 [INF] Seeding database...
+2024-06-23 20:24:39.533 +02:00 [INF] Saved 5 entities to in-memory store.
+2024-06-23 20:24:39.550 +02:00 [INF] Saved 7 entities to in-memory store.
+2024-06-23 20:24:39.583 +02:00 [INF] Saved 19 entities to in-memory store.
+2024-06-23 20:24:39.584 +02:00 [INF] Database seeding complete.
+2024-06-23 20:24:39.812 +02:00 [INF] Now listening on: http://localhost:5091
+2024-06-23 20:24:39.813 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-23 20:24:39.814 +02:00 [INF] Hosting environment: Development
+2024-06-23 20:24:39.814 +02:00 [INF] Content root path: C:\Users\moezm\Workspace\CoffeeDispenser\CoffeeDispenser\CoffeeDispenser.API
+2024-06-23 20:24:40.470 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/index.html - null null
+2024-06-23 20:24:40.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/index.html - 200 null text/html;charset=utf-8 224.699ms
+2024-06-23 20:24:40.694 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-23 20:24:40.699 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.8312ms
+2024-06-23 20:24:40.704 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/_vs/browserLink - null null
+2024-06-23 20:24:40.755 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.5365ms
+2024-06-23 20:24:40.810 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - null null
+2024-06-23 20:24:40.909 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.982ms
