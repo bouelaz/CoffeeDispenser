@@ -2,9 +2,9 @@
 
 A web API for managing a coffee dispenser.
 
-## Description
+Ce projet est réalisé par  ©  ****Mzoughi Moez.**** 
 
-Ce projet est réalisé par Mzoughi Moez.
+## Description
 
 Pour installer .NET Core 8, veuillez suivre les instructions sur le site officiel de .NET : [Installer .NET Core](https://dotnet.microsoft.com/download/dotnet-core)
 
